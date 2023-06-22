@@ -6,17 +6,32 @@ I worked on this cool Tic Tac Toe application as part of a job application proce
  1. Clone both repositories' game-implementation branches:
  - Front-end: https://github.com/zgreyling/tic-tac-toe-web-client/tree/game-implementation
  - Back-end: https://github.com/zgreyling/tic-tac-toe-api/tree/game-implementation
- 2. Install dependencies using NPM for the front-end and using Bundler for the back-end
- 3. Run the applications, the front-end will be available on localhost:4200/game and the back-end will be available on localhost:3000
+ 2. Install dependencies using NPM for the front-end and using Bundler for the back-end and run the applications:
+  - Front-end:
+	 - [ ] Clone the repo
+	 - [ ] Switch to the game-implementation branch
+	 - [ ] Run `npm install` in the console
+	 - [ ] Run `ember serve` in the console
+	 - [ ] Go to http://localhost:4200 in a browser
+- Back-end:
+	 - [ ] Clone the repo
+	 - [ ] Switch to the game-implementation branch
+	 - [ ] Run `bundle` in the console
+	 - [ ] Run `rails db:migrate` in the console
+	 - [ ] Run `rails s` in the console
+	 - [ ] The server is available at http://localhost:3000
 
 **Playing the game**
 When the app is run for the first time, we have no game data in our database. A new game will be created and loaded. If game data exists when the app is refreshed or run again, the last game's data will be loaded and displayed. When a user creates a new game using the button on screen, the old game is deleted. This means our database will always only have one game saved, if not run for the first time, in which case no game data will exist in the database.
 
 **Look and feel**
+
 ![Screenshot during gameplay](https://i.imgur.com/7RmEolX.png)
 *During Gameplay*
+
 ![Screenshot after gameplay and there's a winner](https://i.imgur.com/soOrvqB.png)
 *Game Over - Winner*
+
 ![Screenshot during gameplay and it's a draw](https://i.imgur.com/Jrtk35p.png)
 *Game Over - Draw*
 
@@ -41,6 +56,11 @@ I learned a lot about Ember.js and Ruby on Rails in a short amount of time but I
  - Allow users to enter their names and choose "X" or "O" for the game, also display the player names along with the selected symbol
  - Have multiple games saved in the database, users can save their games and give it a name and when the app is refreshed, users have the option to load a saved game or start a new one
  - Add nice pop-ups for interaction with users instead of static text
+ - Improve how routing is handled in the web-client
+ - Add a 404 page and also improve the index page of the web-client
+ - Add a REST API helper in the web-client where I can add interceptors and also globally set the base URL of the REST API
+ - Include a Postman collection of the end-points
+ - Add a Docker Compose setup for easy deployment
 
 *What I enjoyed*
 I enjoyed learning new technologies and facing old challenges in a new way. All of the challenges I faced and conquered before using familiar tech stacks. I liked working with Ember.js and will continue to learn more about the framework. This was a fun project and time flew by while I was working on it but it remined me that I'm resilient and creative, and I enjoy learning and solving problems.
