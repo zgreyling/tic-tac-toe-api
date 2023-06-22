@@ -13,12 +13,12 @@ I worked on this cool Tic Tac Toe application as part of a job application proce
 When the app is run for the first time, we have no game data in our database. A new game will be created and loaded. If game data exists when the app is refreshed or run again, the last game's data will be loaded and displayed. When a user creates a new game using the button on screen, the old game is deleted. This means our database will always only have one game saved, if not run for the first time, in which case no game data will exist in the database.
 
 **Look and feel**
-*During Gameplay*
 ![Screenshot during gameplay](https://i.imgur.com/7RmEolX.png)
-*Game Over - Winner*
+*During Gameplay*
 ![Screenshot after gameplay and there's a winner](https://i.imgur.com/soOrvqB.png)
-*Game Over - Draw*
+*Game Over - Winner*
 ![Screenshot during gameplay and it's a draw](https://i.imgur.com/Jrtk35p.png)
+*Game Over - Draw*
 
 **Reflection**
 *How I started*
